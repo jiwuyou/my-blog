@@ -4,43 +4,40 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="hkj_xQwAndrh2xuNeDcL-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="hkj_xQwAndrh2xuNeDcL-1" target="hkj_xQwAndrh2xuNeDcL-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="170" y="160" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="280" y="180" />
-              <mxPoint x="280" y="120" />
-              <mxPoint x="160" y="120" />
-              <mxPoint x="160" y="160" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hkj_xQwAndrh2xuNeDcL-1" value="dl-server" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="hkj_xQwAndrh2xuNeDcL-1" value="dl-server" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="180" y="140" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="hkj_xQwAndrh2xuNeDcL-2" value="dl-alg-core" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="hkj_xQwAndrh2xuNeDcL-2" value="dl-alg-core" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="490" y="390" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="hkj_xQwAndrh2xuNeDcL-3" value="表" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="hkj_xQwAndrh2xuNeDcL-3" value="表" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="370" y="290" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="hkj_xQwAndrh2xuNeDcL-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="hkj_xQwAndrh2xuNeDcL-4" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="260" y="190" as="sourcePoint" />
             <mxPoint x="370" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hkj_xQwAndrh2xuNeDcL-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="hkj_xQwAndrh2xuNeDcL-3">
+        <mxCell id="hkj_xQwAndrh2xuNeDcL-5" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" target="hkj_xQwAndrh2xuNeDcL-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="490" y="440" as="sourcePoint" />
             <mxPoint x="540" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hkj_xQwAndrh2xuNeDcL-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="360" as="sourcePoint" />
-            <mxPoint x="440" y="310" as="targetPoint" />
+        <mxCell id="XSf-J5UnKJALN_Zb8ysG-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="hkj_xQwAndrh2xuNeDcL-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="180" as="sourcePoint" />
+            <mxPoint x="220" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="180" />
+              <mxPoint x="320" y="120" />
+              <mxPoint x="240" y="120" />
+            </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="XSf-J5UnKJALN_Zb8ysG-5" value="循环扫描" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="XSf-J5UnKJALN_Zb8ysG-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
